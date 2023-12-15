@@ -1,5 +1,0 @@
-GET: Gegevens worden aan de URL toegevoegd en zijn zichtbaar in de adresbalk. GET-methode wordt gebruikt voor het ophalen van gegevens van de server. Het is minder veilig voor het verzenden van gevoelige informatie omdat de gegevens zichtbaar zijn in de URL.
-
-POST: Gegevens worden verzonden in de aanvraag van de HTTP-header en zijn niet zichtbaar in de URL. POST-methode wordt vaak gebruikt voor het verzenden van gevoelige informatie, zoals wachtwoorden. Het is veiliger dan GET omdat de gegevens niet zichtbaar zijn in de URL.
-
-In het algemeen wordt GET vaak gebruikt voor het ophalen van gegevens, terwijl POST wordt gebruikt voor het verzenden van gegevens naar de server.
