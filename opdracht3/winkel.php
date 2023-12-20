@@ -7,11 +7,11 @@ try {
     $conn = new PDO("mysql:host=$servername;dbname=winkel", $username, $password);
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-    // Selecteer alle producten uit de tabel 'producten'
+    
     $stmt = $conn->query("SELECT * FROM producten");
     $products = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
-    // Toon de producten in een tabel
+    
     if (count($products) > 0) {
         echo "<h2>Producten:</h2>";
         echo "<table border='1'>";
